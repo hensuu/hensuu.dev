@@ -1,13 +1,15 @@
 <template>
   <div>
-    <h1>Hello, World!</h1>
+    <div class="h-96 p-10"> self introduction</div>
+
+    <HorizontalLine />
   </div>
 </template>
 
 <script>
 export default {
-  name: "Index",
-};
+  name: 'Index',
+}
 </script>
 
 <style scoped>
