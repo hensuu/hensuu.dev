@@ -4,5 +4,8 @@
   "assets": {
     "directory": ".output/",
     "not_found_handling": "single-page-application"
+  },
+  "observability": {
+    "enabled": true
   }
 }
