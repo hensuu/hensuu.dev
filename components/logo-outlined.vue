@@ -13,7 +13,7 @@
     <!-- Define the filter for shadow -->
 
     <!-- Original foreground layer -->
-    <g >
+    <g>
       <path d="M3 3v16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3" />
       <path d="M7 9V7.5a2 2 0 0 0-4 0" />
       <path d="M 10.5 6 L 17.5 6" />
@@ -26,10 +26,4 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps({
-  strokeWidth: {
-    type: Number,
-    default: 2,
-  },
-})
 </script>

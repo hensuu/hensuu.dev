@@ -3,4 +3,42 @@
 
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  
+  --color-sienna-50: #fdf5ef;
+  --color-sienna-100: #fbe6d9;
+  --color-sienna-200: #f6cbb2;
+  --color-sienna-300: #f0a881;
+  --color-sienna-400: #e9794c;
+  --color-sienna-500: #e4592b;
+  --color-sienna-600: #d54221;
+  --color-sienna-700: #b1301d;
+  --color-sienna-800: #8d281f;
+  --color-sienna-900: #72241c;
+  --color-sienna-950: #3d0f0d;
+
+  --color-lavender-50: #f7f4fe;
+  --color-lavender-100: #efebfc;
+  --color-lavender-200: #e3dafa;
+  --color-lavender-300: #cdbcf6;
+  --color-lavender-400: #ad8ded;
+  --color-lavender-500: #9b6ce6;
+  --color-lavender-600: #8c4dda;
+  --color-lavender-700: #7c3ac7;
+  --color-lavender-800: #6830a7;
+  --color-lavender-900: #572989;
+  --color-lavender-950: #36195c;
+
+  --color-shamrock-50: #ecfdf3;
+  --color-shamrock-100: #d0fbe1;
+  --color-shamrock-200: #a6f4c9;
+  --color-shamrock-300: #6ce9ac;
+  --color-shamrock-400: #41d994;
+  --color-shamrock-500: #0dbc72;
+  --color-shamrock-600: #02995d;
+  --color-shamrock-700: #027a4d;
+  --color-shamrock-800: #04613f;
+  --color-shamrock-900: #054f35;
+  --color-shamrock-950: #012d1e;
+
+
 }
