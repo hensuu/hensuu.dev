@@ -21,6 +21,10 @@
       </div>
     </div>
     <HorizontalLine />
+    <div class="h-110 p-10 bg-white/35">
+      My music
+    </div>
+    <HorizontalLine />
   </div>
 </template>
 
