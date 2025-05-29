@@ -1,6 +1,10 @@
 <template>
   <div
-    class=" bg-linear-to-b from-white to-yellow-100"
+    class="bg-linear-to-b from-white transition-all duration-1000"
+    :class="{
+      'to-yellow-100': $route.path === '/',
+      'to-violet-100': $route.path === '/blog',
+    }"
     :style="{
       '--tw-gradient-to-position': '100vh',
     }"
