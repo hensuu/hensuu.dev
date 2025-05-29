@@ -29,7 +29,7 @@
           </span>
           <div class="text-yellow-950 text-justify font-medium text-base/relaxed leading-6 space-y-2">
             <p>
-              I'm a developer with 1 year of front-end experience and 2 years as an SRE. Passionate about crafting refined UI and seamless UX, I build upon the solid foundation from my CS studies at National Taiwan University.
+              A developer with 1 year of front-end experience and 2 years as an SRE. Passionate about crafting refined UI and seamless UX, I build upon the solid foundation from my CS studies at National Taiwan University.
             </p>
             <p>
               Over the past 5 years, I've been creating VOCALOID music, inspired by a deep love for its diversity and creativity.
