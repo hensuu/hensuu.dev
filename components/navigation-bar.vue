@@ -17,8 +17,20 @@
         }"
         @click="() => $router.push('/blog')"
       >blog</span>
-      <span class="hover:bg-gray-100 rounded-full px-3 py-2 transition-all duration-200 cursor-pointer">project</span>
-      <span class="hover:bg-gray-100 rounded-full px-3 py-2 transition-all duration-200 cursor-pointer">now</span>
+      <span
+        class="rounded-full px-3 py-2 transition-all duration-200 cursor-pointer"
+        :class="{ 'bg-sky-50 text-sky-700 ring ring-sky-400 scale-105': $route.path === '/project',
+                  'hover:bg-sky-50 hover:text-sky-700  text-gray-600': $route.path !== '/project',
+        }"
+        @click="() => $router.push('/project')"
+      >project</span>
+      <span
+        class="rounded-full px-3 py-2 transition-all duration-200 cursor-pointer"
+        :class="{ 'bg-teal-50 text-teal-600 ring ring-teal-400 scale-105': $route.path === '/now',
+                  'hover:bg-teal-50 hover:text-teal-600  text-gray-600': $route.path !== '/now',
+        }"
+        @click="() => $router.push('/now')"
+      >now</span>
     </div>
   </div>
 </template>

@@ -24,7 +24,7 @@
     <div class="p-10 bg-white/35">
       <div class="flex flex-col md:flex-row gap-8">
         <div class="flex-1 flex flex-col gap-4">
-          <span class="text-yellow-800/70 text-3xl relative ">
+          <span class="text-orange-800/70 text-3xl relative ">
             → About me
           </span>
           <div class="text-yellow-950 text-justify font-medium text-base/relaxed leading-6 space-y-2">
