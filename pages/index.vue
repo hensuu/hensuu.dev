@@ -40,7 +40,37 @@
           <span class="text-pink-800/70 text-3xl relative ">
             → Work Experiences
           </span>
-          QQ
+          <div class="text-yellow-950 space-y-2">
+            <WorkExperience
+              title="Software Engineer"
+              company="MyProGuide Japan"
+              duration="Apr 2025 - Now"
+              :responsibilities="[
+                'Developed full-stack travel and SaaS platforms (20k+ MAU) using Vue 3/Nuxt.js with TypeScript, Pinia, and hybrid CSR/SSR for frontend with lazy loading optimization, and Koa for RESTful backend microservices.',
+                'Automated deployment and maintained cloud infrastructure on GCP with Kubernetes and Cloud Run via GitHub Actions, configured Cloudflare edge caching and CDN, reducing Google Places API costs by 99%.',
+                'Developed AI email parsing pipeline using LLM and prompt engineering for automated customer information extraction and categorization, integrated RESTful third-party OTA service APIs (Trip.com) for booking management.'
+              ]"
+            />
+            <WorkExperience
+              title="Front-end Software Engineer I"
+              company="Garmin Ltd."
+              duration="Sep 2024 - Mar 2025"
+              :responsibilities="[
+                'Led a smart factory dashboard project as project leader, leveraging Angular and TypeScript to build an MQTT-based SPA with data visualization and live video streaming to control and monitor AGVs and assembly lines.',
+                'Established a design system using Storybook and Tailwind CSS with standardized UI/UX patterns, refactored legacy UI components into reusable templates for manufacturing systems and analytical dashboards.'
+              ]"
+            />
+            <WorkExperience
+              title="Network and System Administrator / Site Reliability Engineer"
+              company="NTU Digital Learning Center"
+              duration="Jul 2023 - May 2025"
+              :responsibilities="[
+                'Orchestrated zero-downtime migration of NTU COOL PostgreSQL database from outdated Ubuntu 16.04 using streaming replication and high availability setup, ensuring 99.9% uptime for over 40,000 daily users.',
+                'Deployed Prometheus and Grafana for infrastructure monitoring and observability, implemented automated Slack alerting, and performed network troubleshooting to resolve packet loss on Proxmox VE hypervisor.',
+                'Administered self-hosted GitLab DevOps platform using Docker Compose and Nginx reverse proxy, configured GitLab Runners for automated CI/CD pipelines deploying to Kubernetes clusters.'
+              ]"
+            />
+          </div>
         </div>
       </div>
     </div>
