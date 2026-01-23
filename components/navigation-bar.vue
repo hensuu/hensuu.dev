@@ -12,22 +12,22 @@
       </div>
       <span
         class="rounded-full px-3 py-2 transition-all duration-200 cursor-pointer"
-        :class="{ 'bg-violet-50 text-violet-700 ring ring-violet-400 scale-105': $route.path === '/blog',
-                  'hover:bg-violet-50 hover:text-violet-700  text-gray-600': $route.path !== '/blog',
+        :class="{ 'bg-purple-50 text-purple-700 ring ring-purple-400 scale-105': $route.path === '/blog',
+                  'hover:bg-purple-50 hover:text-purple-700  text-gray-600': $route.path !== '/blog',
         }"
         @click="() => $router.push('/blog')"
       >blog</span>
       <span
         class="rounded-full px-3 py-2 transition-all duration-200 cursor-pointer"
-        :class="{ 'bg-sky-50 text-sky-700 ring ring-sky-400 scale-105': $route.path === '/project',
-                  'hover:bg-sky-50 hover:text-sky-700  text-gray-600': $route.path !== '/project',
+        :class="{ 'bg-blue-50 text-blue-700 ring ring-blue-400 scale-105': $route.path === '/project',
+                  'hover:bg-blue-50 hover:text-blue-700  text-gray-600': $route.path !== '/project',
         }"
         @click="() => $router.push('/project')"
       >project</span>
       <span
         class="rounded-full px-3 py-2 transition-all duration-200 cursor-pointer"
-        :class="{ 'bg-teal-50 text-teal-600 ring ring-teal-400 scale-105': $route.path === '/now',
-                  'hover:bg-teal-50 hover:text-teal-600  text-gray-600': $route.path !== '/now',
+        :class="{ 'bg-cyan-50 text-cyan-600 ring ring-cyan-400 scale-105': $route.path === '/now',
+                  'hover:bg-cyan-50 hover:text-cyan-600  text-gray-600': $route.path !== '/now',
         }"
         @click="() => $router.push('/now')"
       >now</span>

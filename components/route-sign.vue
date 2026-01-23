@@ -15,7 +15,7 @@
 <script setup lang="ts">
 const colorVariants = {
   green: 'bg-green-500',
-  rose: 'bg-rose-500',
+  rose: 'bg-red-500',
   blue: 'bg-blue-500',
 }
 

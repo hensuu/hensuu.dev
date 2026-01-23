@@ -3,9 +3,9 @@
     class="bg-linear-to-b from-white transition-all duration-1000"
     :class="{
       'to-yellow-100': $route.path === '/',
-      'to-violet-100': $route.path === '/blog',
-      'to-sky-100': $route.path === '/project',
-      'to-teal-100': $route.path === '/now',
+      'to-purple-100': $route.path === '/blog',
+      'to-blue-100': $route.path === '/project',
+      'to-cyan-100': $route.path === '/now',
     }"
     :style="{
       '--tw-gradient-to-position': '100vh',
