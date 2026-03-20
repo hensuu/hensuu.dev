@@ -47,7 +47,7 @@
               duration="Apr 2025 - Now"
               :responsibilities="[
                 'Developed full-stack travel and SaaS platforms (20k+ MAU) using Vue 3/Nuxt.js with TypeScript, Pinia, and hybrid CSR/SSR for frontend with lazy loading optimization, and Koa for RESTful backend microservices.',
-                'Automated deployment and maintained cloud infrastructure on GCP with Kubernetes and Cloud Run via GitHub Actions, configured Cloudflare edge caching and CDN, reducing Google Places API costs by 99%.',
+                'Automated deployment and maintained cloud infrastructure on GCP with Kubernetes and Cloud Run via GitHub Actions, configured Cloudflare edge caching and CDN.',
                 'Developed AI email parsing pipeline using LLM and prompt engineering for automated customer information extraction and categorization, integrated RESTful third-party OTA service APIs (Trip.com) for booking management.'
               ]"
             />
