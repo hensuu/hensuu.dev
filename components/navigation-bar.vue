@@ -31,6 +31,13 @@
         }"
         @click="() => $router.push('/now')"
       >now</span>
+      <span
+        class="rounded-full px-3 py-2 transition-all duration-200 cursor-pointer"
+        :class="{ 'bg-rose-50 text-rose-600 ring ring-rose-400 scale-105': $route.path === '/gallery',
+                  'hover:bg-rose-50 hover:text-rose-600  text-gray-600': $route.path !== '/gallery',
+        }"
+        @click="() => $router.push('/gallery')"
+      >gallery</span>
     </div>
   </div>
 </template>

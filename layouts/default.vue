@@ -6,6 +6,7 @@
       'to-violet-100': $route.path === '/blog',
       'to-sky-100': $route.path === '/project',
       'to-teal-100': $route.path === '/now',
+      'to-rose-100': $route.path === '/gallery',
     }"
     :style="{
       '--tw-gradient-to-position': '100vh',
